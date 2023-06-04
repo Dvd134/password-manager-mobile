@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnGetAllAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All Accounts" />
+
+    <Button
+        android:id="@+id/btnGetAccountsByTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Accounts By Tags" />
+
+    <Button
+        android:id="@+id/btnGetAccountsByDomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Accounts By Domain" />
+
+    <Button
+        android:id="@+id/btnGetAccountsByID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Accounts By ID" />
+
+</LinearLayout>
